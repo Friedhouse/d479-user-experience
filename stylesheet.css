@@ -5,13 +5,15 @@ body {
 
 h1 {
     font-size: 50px;
-    margin-top: 20px;
+    margin-top: 5%;
     font-weight: bold;
+    text-align: start;
 }
 h2{
   font-size: 20px;
   text-align: center;
   padding: 10px;
+  font-family: cursive;
 }
 h3{
   font-weight: bold;
@@ -50,12 +52,6 @@ li a:hover {
     border-radius: 5px;
     color: white;
 }
-
-  .footer {
-    background-color: #003B6D;
-    color: white; 
-    padding: 5%;
-  }
   
   .footer-content {
     display: flex;
@@ -63,7 +59,7 @@ li a:hover {
     align-items: center; 
     max-width: 1200px; 
     margin: 0 auto; 
-    padding: 0 20px; 
+    padding: 5%; 
   }
   
   .footer-left,
@@ -126,58 +122,33 @@ li a:hover {
     padding: 5%;
   }
 
-  .intro {
-    padding: 5%;
-  }
-  
-  .first-text {
-    padding: 5%;
-  }
-
-  .second-text {
-    padding: 5%;
-  }
-
-  .third-text {
-    padding: 5%;
-  }
-
-  .fourth-text {
-    padding: 5%;
-  }
-
   .entertainment {
     text-align: center;
   }
 
-  .list-group-item {
-    background-color:#003B6D;
-    color: white;
+  p, .transportation {
+    padding: 1%;
+    text-align: center;
   }
 
-  .cats-list {
-    margin-left: 10%;
-  }
-  .animal-image {
-    
-    border-radius: 5px;
-    border-color:#003B6D;
-    border-style: solid;
-    border-width: 8px;
-    display: block;
-    margin: auto;
+  .transportation {
+    padding-bottom: 5%;
   }
 
-/* visited link */
-.inline-link:visited {
-  color:#003B6D;
-}
+  .container {
+    text-align: center;
+  }
 
-/* mouse over link */
-.inline-link:hover {
-  color: #676767;
-}
-
-.fish-button{
-  justify-content: center;
-}
+  a:link {
+    text-decoration: none;
+    color:#003B6D;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color:#003B6D;
+  }
