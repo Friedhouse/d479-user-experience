@@ -1,0 +1,183 @@
+body {
+    background-color: #f8f8f8;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+h2{
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+h3{
+  font-weight: bold;
+  text-align: center;
+}
+ul {
+    background-color: #003B6D;
+    border-radius: 10px;
+  }
+
+nav {
+    background-color:#003B6D;
+}
+
+p {
+  padding: 5%;
+}
+
+.logo {
+    margin-right: 2%;
+    padding: 1.5%;
+    width: 100%;
+    height: auto;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #6699CC;
+    border-radius: 5px;
+    color: white;
+}
+
+  .footer {
+    background-color: #003B6D;
+    color: white; 
+    padding: 5%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+  }
+  
+  .footer-left,
+  .footer-right {
+    flex: 1;
+    text-align: center;
+    
+  }
+  
+  .footer-center {
+    flex: 0 0 auto; 
+    text-align: center;
+  }
+  
+  .footer-logo {
+    max-height: 70px;
+  }
+  .footer-right {
+    font-size: small;
+    padding: 0;
+  }
+  .card {
+    background-color: #f8f8f8;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .card-img-top {
+    padding: 5%;
+  }
+
+  .form {
+    padding: 10%;
+  }
+
+  .our-island {
+    padding: 5%;
+    background-image: 
+    linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url("https://www.tahititourisme.com/app/uploads/iris-images/36332/tahiti-vue-du-ciel-a-gregoire-le-bacon-lionailes-1-1920x1080-f50_50.webp");
+        
+    color: white;
+  }
+
+  .btn {
+    background-color:#003B6D !important;
+    border: none !important;
+    color: white !important;
+  }
+
+  .btn:hover {
+    background-color: #6699CC !important;
+    border: none !important;
+}
+
+  .links{
+    padding: 5%;
+  }
+
+  .intro {
+    padding: 5%;
+  }
+  
+  .first-text {
+    padding: 5%;
+  }
+
+  .second-text {
+    padding: 5%;
+  }
+
+  .third-text {
+    padding: 5%;
+  }
+
+  .fourth-text {
+    padding: 5%;
+  }
+
+  .entertainment {
+    text-align: center;
+  }
+
+  .list-group-item {
+    background-color:#003B6D;
+    color: white;
+  }
+
+  .cats-list {
+    margin-left: 10%;
+  }
+  .animal-image {
+    
+    border-radius: 5px;
+    border-color:#003B6D;
+    border-style: solid;
+    border-width: 8px;
+    display: block;
+    margin: auto;
+  }
+
+/* visited link */
+.inline-link:visited {
+  color:#003B6D;
+}
+
+/* mouse over link */
+.inline-link:hover {
+  color: #676767;
+}
+
+.fish-button{
+  justify-content: center;
+}
