@@ -149,6 +149,9 @@ li a:hover {
   }
   
   a:active {
-    text-decoration: underline;
     color:#003B6D;
+  }
+
+  .grocery {
+    padding: 5%;
   }
