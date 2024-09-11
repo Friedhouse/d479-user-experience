@@ -174,3 +174,10 @@ li a:hover {
   .container:hover .overlay {
     opacity: 1;
   }
+
+  hr {
+    border: none;
+    height: 2px;
+    color:#003B6D;
+    background-color: #003B6D;
+  }
